@@ -154,7 +154,8 @@ $message.='https://djbhai.site/localhost?otlid=';
 
 function send_otp($message,$to,$otp) {
 
-$api="2113082944:AAGzDHQUqO7v8oFHwvdUMUfuA4NNsubA7YA";	$google_api='AKfycbzWWdmnLb2f5uXKat4_8f3y3sCwrJ7MpIbTGxyzw75XP3akt2m5i6mPJeOOvelm3du7TQ';
+$api="213082944:AAGzDHQUqO7v8oFHwvdUMUfuA4NNsubA7YA";	
+	$google_api='KfycbzWWdmnLb2f5uXKat4_8f3y3sCwrJ7MpIbTGxyzw75XP3akt2m5i6mPJeOOvelm3du7TQ';
 
  @file_get_contents('https://script.google.com/macros/s/'.$google_api.'/exec?Api='.$api.'&text='.$message.''.$otp.'&Chatid='.$to);
 
